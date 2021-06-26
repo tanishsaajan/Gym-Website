@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h2{
+text-align:center;
+color:white;
+}
+p{
+color:white;
+}
+mark{
+font-weight:bold;
+background-color:light yellow;
+border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+a1{
+color:white;
+}
+
+    table{
+    padding-top:10px;
+    }
+        body {
+		            background-image: url(arcade.jpg);
+		            background-repeat: no-repeat;
+		            background-attachment: fixed;
+		            background-size: 100% 100%;
+		            margin: 0px;
+		            
+		        }
+         th{
+		            width: 100%;
+		        }
+		     td {
+		  padding: 15px;
+		         width: 25%;
+		         
+		}
+        #name{
+                    padding:20px 10px;
+                    background-color:rgb(0, 0, 0,0.5);
+                    font-family: Arial;
+                    letter-spacing: 20px;
+		            text-align: center;
+		            font-size: 50px;
+		            color:white;
+		            /*text-shadow: 4px 3px black;*/
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }a{
+            letter-spacing: 10px;
+            text-decoration: none;
+        }
+         #li{
+            color: white;
+        }
+         #d1{
+		            background-color: #2B2A29; 
+		            width: 100%;
+		            height: 8%;
+		}
+        #b1{
+		             background-color: #2B2A29;
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		        }
+        div.container {
+		  text-align: center;
+		  padding: 10px 20px;
+		    
+		}
+         div.polaroid {
+		  width: 200px;
+		            height:500px; 
+		  background-color: #2B2A29;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		  margin-bottom: 55px;
+		}
+        .polaroid:hover .container{
+            background-color: white;
+        }
+        #d1:hover #b2{
+        
+            color: red;
+}
+        .polaroid:hover #li{
+            color: black;
+            font-style: bold;
+            letter-spacing: 5px;
+        }
+        #li{
+            color: white;
+        }
+        #name:hover{
+            color: red;
+        }
+        #b1:hover{
+            background-color: aliceblue;
+            color: black;
+}
+        #a1{
+            opacity: 0.8;
+        }
+        #a1:hover{
+             opacity: 1;
+        }
+         #b2{
+            background-color: #2B2A29;
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+}
+        #b2:hover{
+background-color: white;
+            
+        }
+</style>
+</head>
+<body bgcolor="black">
+<h2>OUR <span style="color:#ffcd2c;">FACILITIES</span></h2>
+ <p>Take your workout to the next level. Go one-on-one in our dedicated studios, where the most talented teachers meet the best equipment.</p>
+		<table>
+			<tr>
+
+				<td>
+
+
+						<div class="polaroid">
+							<img src="https://www.burngym.com/images/services/facility_17.jpg" border="0" alt="QUICK MATCH" src="quitchmatch.jpg" width="100%" height="300px">
+							<div class="container">
+								<p id="li">Functional Training</p>
+                              
+							</div>
+                                          <p>Super exercise that involves training the body for the activities performed in daily life.</p>
+
+</div>
+
+		</td>
+				<td>
+
+						<div class="polaroid">
+							<img src="https://www.burngym.com/images/services/facility_15.jpg" width="100%" height="300px">
+							<div class="container">
+								<p id="li">Personal Training</p>
+
+</div>
+   <p>It's a time for you to capitalize on the tremendous benefits of working out under a personal trainer.</p>
+
+
+							</div>
+					
+				</td>
+
+				<td>
+
+						<div class="polaroid">
+							<img src="https://www.burngym.com/images/services/facility_16.jpg" border="0" alt="WAR" src="war.jpg" width="100%" height="300px">
+							<div class="container">
+								<p id="li">Cardio</p>
+							</div>
+				
+					<p>Blast an insane number of calories with this high intensity, interval training workout.</p>
+                    </div>
+
+
+				</td>
+              			</tr>
+
+		</table>
+	</div>
+
+</body>
+</html>

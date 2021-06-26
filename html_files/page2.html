@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+b{
+color:black;
+}
+p{
+color:white;
+size:5px;
+align:left;
+}
+mark{
+background-color:light yellow;
+border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat:no-repeat;
+    height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body background="https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg">
+
+
+
+
+  <div class="row">
+    
+    <div class="column">
+      <form action="/action_page.php" onsubmit="myFunction()">
+<a href="file:///F:/College/html_files/final.html"><p><mark>Home</mark></p></a>
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country"><b>Country</b></label>
+        <select id="country" name="country">
+        <option value="India">India</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="none">None Of The Abhove</option>
+        </select>
+        <label for="subject"><b>Subject</b></label>
+        <textarea id="subject" name="subject" placeholder="Write Something......" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+function myFunction() {
+  alert("The Form was Submitted Successfully");
+}
+</script>
+
+</body>
+</html>
